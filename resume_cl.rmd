@@ -78,16 +78,14 @@ Technical Skills {#skills}
   - SQL 
   - SAS 
 
-
-
-Disclaimer {#disclaimer}
+Service
 --------------------------------------------------------------------------------
 
-Made with the R packages **pagedown** and **datadrivencv**.
-
-The source code is available **github.com/Cghlewis/resume**.
-
-Last updated on `r Sys.Date()`.
+  + R-Ladies St. Louis Co-organizer (2020-present) 
+  
+  + LaunchCode CoderGirl Teaching Assistant (2018)  
+  
+  + AmeriCorps St. Louis Education Team (2007-2008)  
 
 
 
@@ -124,10 +122,10 @@ CV %<>% print_section('professional_experience')
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
+
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
-
 
 
 ```{r}
@@ -143,4 +141,13 @@ CV %<>% print_section('presentations')
 ```
 
 
+::: aside
 
+
+Made with the R packages **pagedown** and **datadrivencv**.
+
+The source code is available **github.com/Cghlewis/resume**.
+
+Last updated on `r Sys.Date()`.
+
+:::

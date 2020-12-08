@@ -21,6 +21,10 @@ padding-top: .75rem;
 padding-bottom: .8rem;
 }
 
+[data-id="skills"] ul {
+padding-bottom: .2rem;
+}
+
 
  /* Add image border*/
 img {
